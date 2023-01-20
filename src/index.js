@@ -6,6 +6,7 @@ import Form from "./form";
 import Array from "./Array";
 import Effect from "./effect";
 import IntervalHookCounter from "./intervalhookcounter";
+import FetchData from "./fetchData";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<IntervalHookCounter />);
+root.render(<FetchData />);
